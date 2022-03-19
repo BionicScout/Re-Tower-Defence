@@ -18,7 +18,6 @@ public class Tower : MonoBehaviour {
             findTarget();
         }
 
-
         if (currentTarget != null) {
             Debug.DrawLine(transform.position, currentTarget.transform.position, Color.red, Time.deltaTime);
 
